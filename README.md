@@ -11,7 +11,12 @@ There are several permanent branches in the repository
 - **errata**: This is branched from and merged to *main* to fix typos that are found in the *main*.
 - **translation**: This branch contains translations into english of official versions in *main*.
 
-In addition to these four branches, feature-branches are branched from develop to work on specific parts of the document. These branches should be named *feature-[some_feaure]*. Unless there are specific reasons not to, this branches should be deleted after merging into develop.
+In addition to these four branches, feature-branches are branched from develop to work on specific parts of the document. These branches should be named *feature-[some_feaure]-[username]*. Unless there are specific reasons not to, this branches should be deleted after merging into develop.
+
+## Git practice
+- It is good practice to start modifications by first creating a new branch.
+- It is a good idea to open an issue and get feedback before starting a revision of a specific topic. 
+- It is also a good idea to talk to other contributors in person if you think they might give valuable feedback.
 
 # LaTeX structure
 The document is written in LaTeX to facilitate version controll. 
@@ -26,9 +31,11 @@ The document is written in LaTeX to facilitate version controll.
 
 ## Specific Latex choices.
 
-The document class is *memoir*
+The document class is *memoir*. Sectioning commands to be used are \part, \chapter \section \subsection \subsubsection.
 
 Each section should be placed in it's own file. Subsections can also be in separate files if necessary. Use \include to include the subfiles in the main files.
+
+The seperate files for each level are placed in a nested folder structure.
 
 # Language
 
@@ -38,5 +45,4 @@ The document is written in norwegian.
 
 - Be friendly and supportive. It will most often lead to better quality.
 - Critique is important, but only in a constructive and friendly manner.
-- It is a good idea to open an issue and get feedback before starting a revision of a specific topic. 
-- It is also a good idea to talk to other contributors in person if you think they might give valuable feedback.
+
