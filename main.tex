@@ -1,7 +1,7 @@
 \documentclass[a4paper, oneside, 12pt]{memoir}
 % Use twoside for a version compatible with two-sided printing.
 
-\include{preamble}
+\input{preamble}
 
 \begin{document}
 
@@ -46,11 +46,15 @@ Denne delen beskriver målsetningene med studieprogrammene MTFYMA og BFY.
 
 \part{Oppbyggning}
 
+\appendix
+
 \renewcommand{\appendixtocname}{Tillegg}
 \renewcommand{\appendixpagename}{Tillegg}
-\appendixpage
+\part*{Tillegg}
+\addcontentsline{toc}{part}{Tillegg}
+%\appendixpage*
 
-\appendix
+
 
 \chapter{Utviklingsplan}
 
