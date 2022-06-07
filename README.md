@@ -19,7 +19,7 @@ In addition to these four branches, feature-branches are branched from develop t
 - It is also a good idea to talk to other contributors in person if you think they might give valuable feedback.
 
 # LaTeX structure
-The document is written in LaTeX to facilitate version controll.
+The document is written in LaTeX to facilitate version control.
 
 ## Key principles
 - Keep it simple!
