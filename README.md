@@ -3,6 +3,10 @@ This repository contains documentation about the goals of the study programs MTF
 
 Information that is related to creating the content of the document (structure of document, plan for development, evaluations, etc.) are placed in the appendix of the document.
 
+Compiled pdf-versions of the document can be accessed here: https://studntnu.sharepoint.com/:f:/s/teamsite2/10087/EjNHgFDJVhJCowMZKQPgFLABfrB5WqRgjVW_set7PkpCVQ?e=BtxSmt
+
+Another option to access the latest version of the main branch is to sync github with overleaf (https://no.overleaf.com/learn/how-to/Using_Git_and_GitHub). Only pull to overleaf, do not push to github as the syncronization does not support branching.
+
 # Git structure
 There are several permanent branches in the repository
 - **main**: This branch contains versions of the document that are complete (i.e. without 'fill in more here' or empty section headers). They need not be final versions, i.e. they can be used as versions that are sent out for feedback. Official versions that are used to create and manage course content are marked with a tag and given an official version name as *[yyyy-n]*.
