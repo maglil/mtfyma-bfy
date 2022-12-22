@@ -4,4 +4,8 @@
 *.pdf
 *.out
 *.toc
+*.bbl
+*.bcf
+*.blg
+*.run.xml
 compiled-docs/
