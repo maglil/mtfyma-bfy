@@ -3,6 +3,8 @@
 
 \input{preamble}
 
+\appendixfalse % \appendixtrue or \appendixfalse to toggle appendix
+
 \begin{document}
 
 \frontmatter
@@ -53,6 +55,7 @@ Denne delen beskriver hvordan man hensiktsmessig kan bygge opp studiet for å op
 
 \part{Strategiske valg}
 
+\ifappendix
 \appendix
 
 \renewcommand{\appendixtocname}{Tillegg}
@@ -113,7 +116,7 @@ Dette kapittelet inneholder en sammenlikning av studieprogrammene i forhold til 
 \input{appendix/external-reports/aapt-computational-physics}
 
 \input{appendix/external-reports/asa-guidelines.tex}
-
+\fi % end if statemnt for toggle appendix
 
 \printbibliography
 
