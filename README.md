@@ -3,7 +3,7 @@ This repository contains documentation about the goals of the study programs MTF
 
 Information that is related to creating the content of the document (structure of document, plan for development, evaluations, etc.) are placed in the appendix of the document.
 
-Compiled pdf-versions of the document can be accessed here: https://studntnu.sharepoint.com/:f:/s/teamsite2/10087/EjNHgFDJVhJCowMZKQPgFLABfrB5WqRgjVW_set7PkpCVQ?e=BtxSmt
+Compiled pdf-versions of the document can be accessed here: https://folk.ntnu.no/lilledah/hoveddokument/
 
 Another option to access the latest version of the main branch is to sync github with overleaf (https://no.overleaf.com/learn/how-to/Using_Git_and_GitHub). Only pull to overleaf, do not push to github as the syncronization does not support branching.
 
