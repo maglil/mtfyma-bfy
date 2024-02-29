@@ -8,4 +8,6 @@
 *.bcf
 *.blg
 *.run.xml
+*.gz
 compiled-docs/
+build

@@ -27,6 +27,7 @@ The document is written in LaTeX to facilitate version control.
 
 ## Key principles
 - Keep it simple!
+- *Keep seperate things on single lines*. Use seperate lines for each sentence. A paragraph is made up of lines without spacing. Don't put paragraphs on a single line. This will make it easier to identify changes made in new commits. It is difficult to spot a single typo-fix if long paragraph is changed.
 - Keep all preamble commands in a separate file *preamble.tex*
 - All general layout modifications, custom commands should be placed in preamble.tex. No layout commands in section files.
 - Avoid packages if possible
@@ -37,7 +38,9 @@ The document is written in LaTeX to facilitate version control.
 
 The document class is *memoir*. Sectioning commands to be used are \part, \chapter \section \subsection \subsubsection.
 
-Each section should be placed in it's own file. Subsections can also be in separate files if necessary. Use \include to include the subfiles in the main files.
+Each section should be placed in it's own file. 
+Subsections can also be in separate files if necessary. 
+Use \include to include the subfiles in the main files.
 
 The separate files for each level are placed in a nested folder structure.
 

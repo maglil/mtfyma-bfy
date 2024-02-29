@@ -3,18 +3,33 @@
 
 \setsecnumdepth{subsection}
 
+\setlength\cftpartnumwidth{2em}
+\setlength\cftchapternumwidth{3em}
+
 % Language
 \usepackage[norsk]{babel}
 
 % References
 \usepackage{hyperref}
+\hypersetup{pdfpagemode=UseNone} % Don't automatically open bookmarks bar in pdf viewer
 
 % For block commenting
 \usepackage{comment}
 
 % Typesetting
 \usepackage{csquotes}
+\usepackage{amssymb}
 
 %References
 \usepackage{biblatex}
 	\addbibresource{bibliography.bib}
+
+\newif\ifappendix % toggle weather appendix printed
+
+% User defined formatting
+\newcommand{\vision}[1]{\vspace{0.6em}\noindent $\blacksquare$ \textbf{#1} \vspace{0.2em} \\} 
+\newcommand{\visiontext}[1]{#1} % show visiontext
+%\newcommand{\visiontext}[1]{} % hide visiontext
+
+\newcommand{\name}{\textit} % Formatting of names of organizations, programs, institutions etc.
+%$\blacksquare}$
